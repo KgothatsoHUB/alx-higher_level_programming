@@ -8,4 +8,3 @@ for ascii_value in range(122, 96, -1):
         uppercase_value = ascii_value
 
     print("{:c}".format(uppercase_value), end="")
-

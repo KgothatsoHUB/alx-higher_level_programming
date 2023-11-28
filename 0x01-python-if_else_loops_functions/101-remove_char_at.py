@@ -7,4 +7,3 @@ def remove_char_at(s, index):
 # Example usage:
 # result = remove_char_at("example", 2)
 # print(result)
-

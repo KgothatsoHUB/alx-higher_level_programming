@@ -18,4 +18,3 @@ a = 2
 b = 3
 result = power(a, b)
 print(f"{a} ^ {b} = {result}")
-
