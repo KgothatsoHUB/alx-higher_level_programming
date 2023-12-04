@@ -1,9 +1,10 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+#!/usr/bin/env python3
+
 def print_list_integer(my_list=[]):
     for num in my_list:
-        print("{:d}".format(num))
+        print(str.format("{}", num))
 
-# Eg:
-my_list = [1, 2, 3, 4, 5]
-print_list_integer(my_list)
-
+if __name__ == "__main__":
+    my_list = [1, 2, 3, 4, 5]
+    print_list_integer(my_list)
