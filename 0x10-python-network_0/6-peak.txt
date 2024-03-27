@@ -1,0 +1,6 @@
+The complexity of the algorithm used in the find_peak function is O(log(n)). 
+This is because the algorithm employs a binary search approach to find the 
+peak in the list of unsorted integers, which reduces the search space by 
+half in each iteration, resulting in logarithmic time complexity relative 
+to the size of the input list.
+
